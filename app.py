@@ -7,7 +7,7 @@ import os
 st.set_page_config(page_title="Housing Estate AI", page_icon="🏘️", layout="wide")
 
 # 2. Robust Model Loading
-path = 'Models/Population_Model.pkl'
+path = 'Population_Model.pkl'
 if os.path.exists(path):
     model = joblib.load(path)
     try:
